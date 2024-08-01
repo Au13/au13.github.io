@@ -25,7 +25,27 @@
     <div id = 'textinput'>
         <input id = 'text_input' type = 'number' name = 'weight'>
     </div>
-    
+    <div>
+        <p style="padding-top: 20px; color: green; display:flex; justify-content:center;">
+            What is the drivetrain of the robot
+        </p>
+        <form style="color: white; padding-left:max(44%, 4vh);">
+            <input type="radio" name = "Swerve" value="Swerve">
+            <label for = "swerve">Swerve</label>
+            <div style="padding: 2px;"></div>
+            <input type="radio" name = "Tank Drive" value="TDrive">
+            <label for = "swerve">Tank Drive</label>
+            <div style="padding: 2px;"></div>
+            <input type="radio" name = "Tank Drive" value="BDrive">
+            <label for = "swerve">Butterfly Drive</label>
+            <div style="padding: 2px;"></div>
+            <input type="radio" name = "Tank Drive" value="Mechnum">
+            <label for = "swerve">Mecanum</label>
+            <div style="padding: 2px;"></div>
+            <input type="radio"name = "Tank Drive" value="other">
+            <label for = "swerve">Other</label>
+        </form>
+    </div>
     <script src = 'script.js'></script>
 
 </head>

@@ -19,7 +19,11 @@
     color: lightgreen;
 }
 
-
+#next{
+    background-color: transparent;
+    color:green;
+    
+}
 
 body{
     background-color:black;
