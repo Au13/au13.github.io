@@ -9,6 +9,7 @@
     <div id = "Hello">
         WELCOME BUSTER
     </div>
+    <a id = "next" href = "pages/match_scouting.html">MATCH SCOUTING</a>
     <p style="color: green; display:flex; justify-content:center;">Team number that you are scouting</p>
     <div id = 'textinput'>
         <input id = 'text_input' type = 'number' name = 'team_number'>
@@ -34,20 +35,51 @@
             <label for = "swerve">Swerve</label>
             <div style="padding: 2px;"></div>
             <input type="radio" name = "Tank Drive" value="TDrive">
-            <label for = "swerve">Tank Drive</label>
+            <label for = "Tank Drive">Tank Drive</label>
             <div style="padding: 2px;"></div>
-            <input type="radio" name = "Tank Drive" value="BDrive">
-            <label for = "swerve">Butterfly Drive</label>
+            <input type="radio" name = "Butterfly Drive" value="BDrive">
+            <label for = "Butterfly Drive">Butterfly Drive</label>
             <div style="padding: 2px;"></div>
-            <input type="radio" name = "Tank Drive" value="Mechnum">
-            <label for = "swerve">Mecanum</label>
+            <input type="radio" name = "Mecanum" value="Mechnum">
+            <label for = "Mecanum">Mecanum</label>
             <div style="padding: 2px;"></div>
-            <input type="radio"name = "Tank Drive" value="other">
-            <label for = "swerve">Other</label>
+            <input type="radio"name = "Other" value="other">
+            <label for = "Other">Other</label>
         </form>
     </div>
-    <a id = "next" href = "pages/match_scouting.html">NEXT</a>
+    <div style="padding-bottom:20px;"></div>
+
+    <div>
+        
+        <p style= "color: green; display:flex; justify-content:center;">
+            What are the motors used on the robot
+        </p>
+        <form style="color: white; padding-left:max(44%, 4vh);">
+            <input type="radio" name = "Neo" value="Neo">
+            <label for = "swerve">Neo</label>
+            <div style="padding: 2px;"></div>
+            <input type="radio" name = "Falcon" value="Falcon">
+            <label for = "Tank Drive">Falcon</label>
+            <div style="padding: 2px;"></div>
+            <input type="radio" name = "CIM" value="CIM">
+            <label for = "Tank Drive">CIM</label>
+            <div style="padding: 2px;"></div>
+            <input type="radio"name = "Other" value="other">
+            <label for = "Other">Other</label>
+        </form>
+    </div>
+    <p style="padding-top: 10px; color: green; display:flex; justify-content:center;"># of batteries on the robot</p>
+    <div id = 'textinput'>
+        <input id = 'text_input' type = 'number' name = 'weight'>
+    </div>
+
+    <!-- NICHE STUFF FINISH THIS DURING SEASON
+     REMEBER!! -->
+
+    
+
     <script src = 'script.js'></script>
+
 
 </head>
 

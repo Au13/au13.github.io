@@ -1,12 +1,12 @@
-#Hello{
-    font-size:xx-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: green;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-    max-width: fit-content;
-}
+    #Hello{
+        font-size:xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: green;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        max-width: fit-content;
+    }
 
 #textinput{
     display: flex;
@@ -27,10 +27,20 @@ button{
 
 #next{
     background-color: transparent;
+    display: flex;
+    justify-content: center;
     color:green;
     
 }
 
 body{
     background-color:black;
+}
+
+.check_boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 44%;
+    color:green;
 }

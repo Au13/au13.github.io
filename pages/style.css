@@ -1,0 +1,12 @@
+#Hello{
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    max-width: fit-content;
+}
+body{
+    background: black;
+}
