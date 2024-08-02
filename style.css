@@ -21,7 +21,9 @@
 
 
 button{
+    background-color: transparent;
     border-color: green;
+    color:green;
     border:1px;
 }
 
