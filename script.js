@@ -1,7 +1,7 @@
-let team_number = document.getElementById('teamnumber');
-let width = document.getElementById('width');
-let weights = document.getElementById('weight');
+let next_button = document.getElementById('next');
 
-
+next_button.addEventListener('click',function(){
+   console.log("clicked button"); 
+});
 
 

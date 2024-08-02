@@ -19,6 +19,12 @@
     color: lightgreen;
 }
 
+
+button{
+    border-color: green;
+    border:1px;
+}
+
 #next{
     background-color: transparent;
     color:green;
